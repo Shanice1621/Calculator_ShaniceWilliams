@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<form name="Calc">
+<table class="calc" align=center border='10' cellspacing="8" cellpadding="8">
+	<tr>
+	<td colspan = '4'>
+		<input class="btn2" type="button" value="C" onclick="Calc.Input.value = ' '">
+		<input type="" name="Input" size="25" class="btn3">
+		<input class="btn4" type="button" value="=" onclick="Calc.Input.value = eval(Calc.Input.value)">
+	</td>
+	</tr>
+	<tr>
+		<td class='a'><input class="btn1" type="button" value="7" onclick="Calc.Input.value += '7'"></td>
+		<td class='a'><input class="btn1" type="button" value="8" onclick="Calc.Input.value += '8'"></td>
+		<td class='a'><input class="btn1" type="button" value="9" onclick="Calc.Input.value += '9'"></td>
+		<td class='a'><input class="btn1" type="button" value="/" onclick="Calc.Input.value += '/'"></td>
+	</tr>
+		<tr>
+		<td class='a'><input class="btn1" type="button" value="4" onclick="Calc.Input.value += '4'"></td>
+		<td class='a'><input class="btn1" type="button" value="5" onclick="Calc.Input.value += '5'"></td>
+		<td class='a'><input class="btn1" type="button" value="6" onclick="Calc.Input.value += '6'"></td>
+		<td class='a'><input class="btn1" type="button" value="*" onclick="Calc.Input.value += '*'"></td>
+	</tr>
+	<tr>
+		<td class='a'><input class="btn1" type="button" value="1" onclick="Calc.Input.value += '1'"></td>
+		<td class='a'><input class="btn1" type="button" value="2" onclick="Calc.Input.value += '2'"></td>
+		<td class='a'><input class="btn1" type="button" value="3" onclick="Calc.Input.value += '3'"></td>
+		<td class='a'><input class="btn1" type="button" value="-" onclick="Calc.Input.value += '-'"></td>
+	</tr>
+
+	<tr>
+		
+			<td class='a'><input class="btn1" type="button" value="0" onclick="Calc.Input.value += '0'"></td>
+			<td class='a'><input class="btn1" type="button" value="." onclick="Calc.Input.value += '.'"></td>
+			<td class='a'><input class="btn1" type="button" value="/x" onclick="myAverage()"></td>
+			<td class='a'><input class="btn1" type="button" value="+" onclick="Calc.Input.value += '+'"></td>
+	</tr>
+</table>
+</form>
+<script type="text/javascript">
+	function myAverage(){
+	var num= [];
+	for(var i = 0; i < avg.length; i++) {
+    num += avg[i];
+	}
+	var avg = num / avg.length;
+}
+</script>
+</body>
+</html>

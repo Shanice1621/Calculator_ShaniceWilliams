@@ -1,0 +1,79 @@
+.btn1 {
+	background-color: white;
+	border: 0;
+	font-size: 25px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	width: 50px;
+    height: 40px; 
+    box-shadow: 0 4px #999;
+	
+
+}
+
+.btn2 {
+	background-color: white;
+	border: 0;
+	font-size: 25px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	width: 50px;
+    height: 40px; 
+    box-shadow: 0 4px #999;
+	
+
+}
+
+.btn3 {
+	height: 28px; 
+	background-color: lightgray;
+}
+
+.btn4 {
+	background-color: white;
+	border: 0;
+	font-size: 25px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	width: 50px;
+    height: 40px; 
+    box-shadow: 0 4px #999;
+}
+
+.a {
+	border: 0;
+
+}
+
+.btn1:hover {
+    background-color: yellow;
+}
+
+.btn2:hover {
+    background-color: pink;
+}
+
+.btn4:hover {
+    background-color: lightblue;
+}
+
+.btn1:active {
+  
+  transform: translateY(4px);
+
+}
+
+.btn2:active {
+  
+  transform: translateY(4px);
+
+}
+
+.btn4:active {
+  
+  transform: translateY(4px);
+
+}
+.calc {
+	background-color: lightgreen;
+}
